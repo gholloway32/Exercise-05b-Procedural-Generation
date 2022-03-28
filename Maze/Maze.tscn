@@ -18,6 +18,7 @@ margin = 0.001
 extents = Vector3( 0.4, 0.1, 0.4 )
 
 [node name="Game" type="Spatial"]
+pause_mode = 2
 
 [node name="Maze" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, -2, -0.5 )
